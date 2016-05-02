@@ -1,63 +1,125 @@
 /***************/
 /* YOUR STYLES */
 /***************/
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,700,400italic);
+@import url(https://fonts.googleapis.com/css?family=Tinos:400,400italic,700,700italic);
 
+/*Body*/
+body {
+background: url("https://raw.githubusercontent.com/CassandraO/p1-persona-style-tile/gh-pages/img/green_cup.png") 25% 25%;
+}
 /* Color Palette */
 .color-1 {
-background: red;
+background: #742464;
 }
 .color-2 {
-background: white;}
+background: #18223F;}
 .color-3 {
-background: blue;}
+background: #E8F2F3;}
+.color-4 {
+background: #57595B;
+}
+.color-5 {
+background: #668D4C;
+}
 
 /* Textures or Patterns*/
+
+/***New Year pattern Made by Mustafa BAL retrieved from subtlepatterns.com ***/
 .pattern-1 {
-background: url("http://cdn.wonderfulengineering.com/wp-content/uploads/2015/05/USA-wallpaper-1.jpg") 25% 25% no-repeat;
+background: url("https://raw.githubusercontent.com/CassandraO/p1-persona-style-tile/gh-pages/img/new_year_background.png") 25% 25%;
 background-size: cover;}
 
+/***Concrete Seamless pattern Made by Anchour retrieved from subtlepatterns.com ***/
+.pattern-2 {
+background: url("https://raw.githubusercontent.com/CassandraO/p1-persona-style-tile/gh-pages/img/concrete_seamless.png") 25% 25%;
+background-size: cover;}
+
+/***Feathered pattern Made by Martuchox retrieved from subtlepatterns.com ***/
+.pattern-3 {
+background: url("https://raw.githubusercontent.com/CassandraO/p1-persona-style-tile/gh-pages/img/upfeathers.png") 25% 25%;
+background-size: cover;}
+
+/***Green Cup pattern Made by Atle Mo retrieved from subtlepatterns.com ***/
+.pattern-4 {
+background: url("https://raw.githubusercontent.com/CassandraO/p1-persona-style-tile/gh-pages/img/green_cup.png") 25% 25%;
+background-size: cover;}
+
+/***Stardust pattern Made by Atle Mo retrieved from subtlepatterns.com ***/
+.pattern-5 {
+background: url("https://raw.githubusercontent.com/CassandraO/p1-persona-style-tile/gh-pages/img/stardust.png") 25% 25%;
+background-size: cover;}
 
 /* Imagery */
-
+img {
+size: 75%;
+}
 
 /* Icons */
-.icon-1 {
+.icon-1,
+.icon-2,
+.icon-3,
+.icon-4,
+.icon-5
+ {
 border: none;
 }
 
 /* Navigation */
+
+a {
+color: #E8F2F3;
+text-decoration: none;
+}
+
+a:hover {
+color: #742464;
+text-decoration: none;
+}
+
 nav li {
     list-style: none;
 }
 
 nav a:link {
-    color: blue;
+    color: #668D4C;
     letter-spacing: 2px;
 text-decoration: none;
     text-transform: uppercase;
+	font-family: 'Raleway', sans-serif;
+	font-style: bold;
 }
 
 nav a:hover {
-color: red;
+color: #E8F2F3;
 }
 
 button {
     padding: 1em;
-    background: blue;
-    color: white;
-    border: red solid 4px;
-    border-radius: 10px;
+    background: #18223F;
+    color: #E8F2F3;
+    border: #668D4C solid 4px;
+    border-radius: 30px;
 }
 
 /* Typography */
 
-h1, h2 {
-    color: red;
-    font-family: 'Henny Penny', cursive;
+h1, h2, h3 {
+    color: #668D4C;
+    font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+color: #742464;
+}
+
+h3 {
+color: #668D4C;
 }
 
 p {
-font-family: 'Henny Penny', cursive;
+font-family: 'Tinos', serif;
+color: #18223F;
     font-size: 1.25em;
     line-height: 1.25em;
 }
